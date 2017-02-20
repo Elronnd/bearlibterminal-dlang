@@ -9,10 +9,6 @@
 	"importPaths": ["source/"],
 	"targetType": "sourceLibrary",
 	"libs": ["BearLibTerminal"],
-	"lflags-linux": ["-L."],
-	"lflags-osx": ["-L."],
 	"dflags-windows": ["-m32mscoff"],
-	"copyFiles-windows": ["lib/BearLibTerminal.lib", "lib/BearLibTerminal.dll"],
-	"copyFiles-linux": ["lib/libBearLibTerminal.so"],
-	"copyFile-osx": ["lib/libBearLibTerminal.dylib"]
+	"sourcePaths": ["lib/"]
 }
